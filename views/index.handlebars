@@ -1,0 +1,69 @@
+<div class="container">
+
+	<div class="row">
+		<img id="burger-header-img" class="img-responsive center-block" src="assets/img/burger.png"/>
+		<h1 class="text-center">Eat-Da-Burger!</h1>
+	</div>
+
+	<div class="row text-center">
+		<form method="POST" action="/burgers" class="form-inline">
+			<div class="form-group">
+				<input type="hidden" name="devoured" value="0"/>
+				<label class="sr-only" for="burger-input">Delicious burger</label>
+				<input name="burger" type="text" class="form-control" id="burger-input" placeholder="Enter a delicious burger"/>
+			</div>
+			<button type="submit" class="btn btn-default">SUBMIT</button>
+		</form>
+	</div>
+
+	<div class="row text-center">
+		<div class="col-xs-6">
+			<div class="panel panel-default">
+				<div class="panel-heading">DELICIOUS BURGERS</div>
+				<div id="burgers-added" class="panel-body">
+
+						<hr>
+
+						{{#each burgers}}
+							{{#unless devoured}}
+								<form method="POST" action="/burgers/update/{{id}}?_method=PUT" class="form-inline">
+									<div class="form-group">
+										<input type="hidden" name="devoured" value="1"/>
+										<label class="sr-only">Delicious burger</label>
+										<p class="form-control-static">{{ burger_name }}</p>
+									</div>
+									<button id="id{{id}}" type="submit" class="btn btn-default">NOM NOM NOM!!</button>
+									<hr>
+								</form>
+							{{/unless}}
+						{{/each}}
+
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-6">
+			<div class="panel panel-default">
+				<div class="panel-heading">DEVOURED BURGERS</div>
+				<div id="burgers-devoured" class="panel-body">
+
+						<hr>
+
+						{{#each burgers}}
+							{{#if devoured}}
+								<form method="POST" action="/burgers/update/{{id}}?_method=DELETE" class="form-inline">
+									<div class="form-group">
+										<label class="sr-only">Devoured burger</label>
+										<p class="form-control-static">{{ burger_name }}</p>
+									</div>
+									<button id="id{{id}}" type="submit" class="btn btn-default">Throw it away!</button>
+									<hr>
+								</form>
+							{{/if}}
+						{{/each}}
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>

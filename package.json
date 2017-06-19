@@ -1,0 +1,35 @@
+{
+    "name": "eatdaburger",
+    "version": "1.0.0",
+    "description": "Eat Da Burger!",
+    "main": "server.js",
+    "scripts": {
+        "debug": "DEBUG=hw-eat-da-burger:* npm start",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./bin/www"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kndelacerda/burger.git"
+    },
+    "keywords": [
+        "burger",
+        "javascript",
+        "handlebars"
+    ],
+    "author": "Kristen De La Cerda",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kndelacerda/burger/issues"
+    },
+    "homepage": "https://github.com/kndelacerda/burger#readme",
+    "dependencies": {
+        "body-parser": "^1.17.2",
+        "express": "^4.15.3",
+        "express-handlebars": "^3.0.0",
+        "method-override": "^2.3.9",
+        "mysql": "^2.13.0",
+        "morgan": "^1.7.0",
+        "mysql": "^2.11.1"
+    }
+}
