@@ -1,6 +1,6 @@
-CREATE DATABASE IF NOT EXISTS burgers_db;
+CREATE DATABASE IF NOT EXISTS burgers_sequelized_db;
 
-USE burgers_db;
+USE burgers_sequelized_db;
 
 CREATE TABLE burgers_db.burgers (
   id INT NOT NULL AUTO_INCREMENT,
