@@ -1,6 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro';
-
-* { font-family: 'Source Sans Pro', sans-serif; }
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
 
 html {
     position: relative;
@@ -25,45 +26,58 @@ footer {
 }
 
 #burger-header-img {
-	max-height: 100px;
+    max-height: 100px;
 }
 
 #burger-input {
-	min-width: 250px;
+    min-width: 250px;
 }
 
 .row {
-	margin: 50px auto;
+    margin: 50px auto;
 }
 
- /* -- Bootstrap overwritten styles -- */
-.navbar .navbar-toggle { color: #CA4047; }
-.navbar .navbar-brand { color: #CA4047; }
-.navbar .navbar-nav>li>a { color: #6B6B6B; }
+
+/* -- Bootstrap overwritten styles -- */
+
+.navbar .navbar-toggle {
+    color: #CA4047;
+}
+
+.navbar .navbar-brand {
+    color: #CA4047;
+}
+
+.navbar .navbar-nav>li>a {
+    color: #6B6B6B;
+}
 
 .navbar .navbar-nav>li>a:hover {
-	background-color: #FFF;
-	color: #CA4047;
+    background-color: #FFF;
+    color: #CA4047;
 }
 
 .navbar {
-	border-radius: 0px;
-	margin-bottom: 1px;
+    border-radius: 0px;
+    margin-bottom: 1px;
 }
 
 .navbar-fixed-top {
     background-color: #fff;
     padding-top: 2px;
-    border-top: 4px solid #CA4047;
+    border-top: 4px solid yellow;
     box-shadow: 0 7px 6px -6px #777;
 }
 
-.navbar-brand, .navbar-brand:hover {
+.navbar-brand,
+.navbar-brand:hover {
     color: #164E5B;
     text-decoration: none;
 }
 
+
 /* -- Helper styles -- */
+
 .hidden {
-	display: none;
+    display: none;
 }
