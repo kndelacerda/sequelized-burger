@@ -1,15 +1,15 @@
 {
     "development": {
         "username": "root",
-        "password": "TEST",
+        "password": "Freedom22@",
         "database": "burgers_sequelized_db",
         "host": "localhost",
         "dialect": "mysql"
     },
     "test": {
         "username": "root",
-        "password": "TEST",
-        "database": "burgers_sequelized_db",
+        "password": null,
+        "database": "database_test",
         "host": "localhost",
         "dialect": "mysql"
     },
