@@ -3,22 +3,18 @@
         "username": "root",
         "password": "TEST",
         "database": "burgers_sequelized_db",
-        "host": "127.0.0.1",
+        "host": "localhost",
         "dialect": "mysql"
     },
     "test": {
         "username": "root",
         "password": "TEST",
         "database": "burgers_sequelized_db",
-        "host": "127.0.0.1",
+        "host": "localhost",
         "dialect": "mysql"
     },
     "production": {
-        "username": process.env.DB_USERNAME,
-        "password": process.env.DB_PASSWORD,
-        "database": process.env.DB_NAME,
-        "host": process.env.DB_HOST,
-        "port": process.env.DB_PORT,
+        "use_env_variable": "JAWSDB_URL",
         "dialect": "mysql"
     }
 }
