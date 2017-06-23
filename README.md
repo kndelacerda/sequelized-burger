@@ -2,7 +2,7 @@
 This restaurant app allows users to input the names of burgers that they would like to eat. The app stores every burger in a mysql database. 
 
 ## Heroku Demo
-
+https://sequelized-burger-knd.herokuapp.com/
 
 ## Local Run instructions
 - Download the files
