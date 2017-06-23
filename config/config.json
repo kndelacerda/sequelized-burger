@@ -8,8 +8,8 @@
     },
     "test": {
         "username": "root",
-        "password": null,
-        "database": "database_test",
+        "password": "Freedom22@",
+        "database": "burgers_sequelized_db",
         "host": "localhost",
         "dialect": "mysql"
     },
