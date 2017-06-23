@@ -3,5 +3,5 @@ exports.db = {
     host: 'localhost',
     user: 'root',
     password: 'TEST',
-    database: 'burgers_db'
+    database: 'burgers_sequelized_db'
 };

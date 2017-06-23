@@ -2,7 +2,7 @@
 
 // Dependencies
 var app = require('../server');
-var debug = require('debug')('hw-eat-da-burger:server');
+var debug = require('debug')('sequelized-burger:server');
 var http = require('http');
 
 // Port Set Up
