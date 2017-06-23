@@ -41,11 +41,11 @@ footer {
 /* -- Bootstrap overwritten styles -- */
 
 .navbar .navbar-toggle {
-    color: #CA4047;
+    color: BROWN;
 }
 
 .navbar .navbar-brand {
-    color: #CA4047;
+    color: BROWN;
 }
 
 .navbar .navbar-nav>li>a {
@@ -54,7 +54,7 @@ footer {
 
 .navbar .navbar-nav>li>a:hover {
     background-color: #FFF;
-    color: #CA4047;
+    color: BROWN;
 }
 
 .navbar {
