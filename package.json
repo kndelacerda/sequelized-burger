@@ -1,7 +1,7 @@
 {
     "name": "hw-burger-sequel",
     "version": "1.0.0",
-    "description": "Burger Sequel! is a restaurant app that lets users input the names of burgers they'd like to eat.",
+    "description": "Burger Sequel!",
     "main": "server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,17 +13,17 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ronnytomasetti/hw-eat-da-burger.git"
+        "url": ""
     },
     "keywords": [
         "burgers"
     ],
-    "author": "Ronny Tomasetti",
+    "author": "Kristen De La Cerda",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/ronnytomasetti/hw-eat-da-burger/issues"
+        "url": ""
     },
-    "homepage": "https://github.com/ronnytomasetti/hw-eat-da-burger#readme",
+    "homepage": "",
     "dependencies": {
         "body-parser": "^1.15.2",
         "express": "^4.14.0",
