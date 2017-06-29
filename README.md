@@ -1,5 +1,13 @@
-# Burger Sequel!
+## About this application
+This restaurant app allows users to input the names of burgers that they would like to eat. The app stores every burger in a mysql database. 
 
-## Overview
+## Heroku Demo
+https://eatdaburgersequelize.herokuapp.com
 
-Burger Sequel! is a restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page. App stores every burger in a mysql database, whether devoured or not.
+## Local Run instructions
+- Download the files
+- Run `npm install` to install the dependencies locally
+- Open the mysql shell files `db/schema.sql` and `db/seeds.sql` files in order to create and load the initial database data.
+- Go to `config/connection.js` and provide the values for your local mysql connection. 
+- Run with `npm start` and put http://localhost:3000/ into your browser 
+- Eat da burgers! 
